@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@source "./**/*.{js,jsx,ts,tsx}";
+@source "../index.html";
+
+/* simple resets */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+}
+
+button {
+  font-family: inherit;
+}
+
+/* optional global background (use utility classes in components instead) */
+body {
+  background: #0a0a18;
+}
